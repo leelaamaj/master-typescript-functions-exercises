@@ -1,0 +1,16 @@
+{
+  "name": "master-typescript-functions-exercises",
+  "version": "1.0.0",
+  "private": true,
+  "description": "42 auto-graded TypeScript exercises on function design (Skill 7.2). Practice parameters, return types, void procedures, and primitive values with strict typing.",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "audit:signatures": "node scripts/audit-signatures.mjs",
+    "regenerate:app-ts": "node scripts/regenerate-app-ts.mjs",
+    "transpile:all": "node scripts/transpile-all.mjs",
+    "fix:signatures": "node scripts/regenerate-app-ts.mjs && node scripts/transpile-all.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
