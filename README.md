@@ -42,8 +42,6 @@ learnpack start
 
 ## Curriculum block
 
-### Skill 7.2: Functions and flow
-
 - **Range:** `001-042`
 - **Focus:** function declaration, parameters, return types, `void` procedures, and primitive values
 - **Difficulty:** beginner to lower-intermediate

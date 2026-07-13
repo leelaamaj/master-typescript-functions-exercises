@@ -15,7 +15,8 @@ En este LearnPack vas a practicar TypeScript resolviendo ejercicios progresivos 
 
 ## Enfoque de este LearnPack
 
-- **Skill 7.2** (Funciones y flujo): `001-042`
+- **Rango:** `001-042`
+- **Enfoque:** declaración de funciones, parámetros, tipos de retorno, procedimientos `void` y valores primitivos
 - **Dificultad:** principiante a intermedio-bajo
 
 Cuando estés listo, haz clic en **Next** arriba a la derecha.

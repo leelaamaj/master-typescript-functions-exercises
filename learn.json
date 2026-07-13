@@ -5,8 +5,8 @@
     "es": "Master TypeScript: Funciones"
   },
   "description": {
-    "us": "42 auto-graded TypeScript exercises on function design (Skill 7.2). Practice parameters, return types, void procedures, and primitive values with strict typing.",
-    "es": "42 ejercicios autocorregidos de TypeScript sobre diseño de funciones (Skill 7.2). Practica parámetros, tipos de retorno, procedimientos void y valores primitivos con tipado estricto."
+    "us": "42 auto-graded TypeScript exercises on function design. Practice parameters, return types, void procedures, and primitive values with strict typing.",
+    "es": "42 ejercicios autocorregidos de TypeScript sobre diseño de funciones. Practica parámetros, tipos de retorno, procedimientos void y valores primitivos con tipado estricto."
   },
   "preview": "https://raw.githubusercontent.com/4GeeksAcademy/master-typescript-functions-exercises/main/preview.jpeg",
   "difficulty": "EASY",

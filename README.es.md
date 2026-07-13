@@ -42,8 +42,6 @@ learnpack start
 
 ## Bloque curricular
 
-### Skill 7.2: Funciones y flujo
-
 - **Rango:** `001-042`
 - **Enfoque:** declaración de funciones, parámetros, tipos de retorno, procedimientos `void` y valores primitivos
 - **Dificultad:** principiante a intermedio-bajo

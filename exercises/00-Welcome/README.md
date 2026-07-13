@@ -15,7 +15,8 @@ In this LearnPack, you will practice TypeScript by solving progressive exercises
 
 ## Focus of this LearnPack
 
-- **Skill 7.2** (Functions and flow): `001-042`
+- **Range:** `001-042`
+- **Focus:** function declaration, parameters, return types, `void` procedures, and primitive values
 - **Difficulty:** beginner to lower-intermediate
 
 When ready, click **Next** at the top right.
