@@ -1,6 +1,4 @@
 function computeAreaOfATriangle(a: number, b: number): number {
-  // your code here
-  return 0;
+  return a * b / 2;
 }
-
 export {};

@@ -1,6 +1,8 @@
 function getStringLength(string: string): number {
-  // your code here
-  return 0;
+  let count = 0;
+  while (string.slice(count, count + 1) !== "") {
+    count++;
+  }
+  return count;
 }
-
 export {};

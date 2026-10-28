@@ -1,6 +1,4 @@
 function isEven(num: number): boolean {
-  // your code here
-  return false;
+  return num % 2 === 0;
 }
-
 export {};
