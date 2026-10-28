@@ -18,11 +18,19 @@
   "technologies": [],
   "delivery": {
     "instructions": "",
-    "formats": ["url"],
+    "formats": [
+      "url"
+    ],
     "regex": ""
   },
   "editor": {
     "agent": "vscode",
     "version": "5.0"
+  },
+  "telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+  },
+  "entries": {
+    "node": "app.ts"
   }
 }

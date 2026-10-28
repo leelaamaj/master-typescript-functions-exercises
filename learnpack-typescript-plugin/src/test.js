@@ -3,12 +3,13 @@ const { transpileExercise, withJsEntry } = require("./transpile");
 
 module.exports = {
   validate: (...args) => nodePlugin.validate(...args),
-  run: async function ({ exercise, socket, configuration }) {
-    transpileExercise(exercise, configuration);
-    return nodePlugin.run({
-      exercise: withJsEntry(exercise),
-      socket,
-      configuration
+  run: async function (context) {
+    const { exercise, configuration } = context;
+    const { sourceCode } = transpileExercise(exercise, configuration);
+    const result = await nodePlugin.run({
+      ...context,
+      exercise: withJsEntry(exercise)
     });
+    return { ...result, source_code: sourceCode };
   }
 };
